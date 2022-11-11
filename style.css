@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.white {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Outfit';
+    width: 300px;
+}
+.blue {
+    background-image: url('images/image-qr-code.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    aspect-ratio: 1;
+}
+.blue img {
+    border-radius: 10px;
+}
+.words {
+    padding: 1.25rem .5rem;
+}
+.words h1 {
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+.words p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}

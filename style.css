@@ -18,6 +18,7 @@ body {
     text-align: center;
     font-family: 'Outfit';
     width: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .blue {
     background-image: url('images/image-qr-code.png');
